@@ -64,8 +64,7 @@ public class WorldGenUtilities {
 			return false;
 
 		for (position = position.add(0, 0, 0); position.getY() > 5 && world.isAirBlock(position) || world.getBlockState(position).getMaterial().isLiquid(); position = position.down()) {
-			;
-		}
+        }
 
 		if (position.getY() <= 4) {
 			return false;
