@@ -1,6 +1,7 @@
 eclipse/
 bin/
 .gradle/
+.idea/
 gradle/
 gradlew
 gradlew.bat
@@ -21,6 +22,7 @@ Wiki Textures/
 ExtraPlanets Server Test/
 *.schematic
 *.rar
+*.iml
 asm/
 Galacticraft Source/
 run/
